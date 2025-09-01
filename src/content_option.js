@@ -1,125 +1,118 @@
 const logotext = "Sri";
 const meta = {
     title: "Sri Gorantla",
-    description: "I’m Sri Gorantla Software devloper,currently working in Cary,NC",
+    description: "Machine learning engineer focused on AI, data engineering and LabVantage solutions.",
 };
 
 const introdata = {
     title: "I’m Sri Gorantla",
     animated: {
-        first: "I love coding",
-        second:"I build ML models",
-        third: "I code cool websites",
-        fourth: "I develop mobile apps",
+        first: "I build intelligent ML systems",
+        second: "I design data pipelines",
+        third: "I streamline LabVantage workflows",
     },
-    description: "Passionate front-end developer with a knack for crafting engaging user interfaces.",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "Machine learning engineer crafting production-ready AI with a strong foundation in data engineering and LabVantage.",
+    your_img_url: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=400&q=80",
 };
 
 const dataabout = {
     title: "A bit about myself",
-    aboutme: "I'm a Seasoned software developer specializing in front-end excellence, with a well-rounded foundation in full-stack development and insights from the world of data science.. My goal is to combine my diverse skills to create innovative and impactful solutions that bridge the gap between technology and user needs.",
+    aboutme: "I'm a machine learning engineer with a passion for turning data into impactful products. My expertise spans Azure ML, Databricks and Docker for scalable AI solutions, solid data engineering skills for robust pipelines, and hands-on experience customizing LabVantage to streamline laboratory operations.",
 };
-const worktimeline = [{
-        jobtitle: "Front End Developer",
+
+const worktimeline = [
+    {
+        jobtitle: "Machine Learning Engineer",
         where: "Q9Software",
+        date: "2023 - Present",
+    },
+    {
+        jobtitle: "Data Engineer",
+        where: "UAkron",
         date: "2022",
     },
     {
-        jobtitle: "Teaching Assistant",
-        where: "UAkron",
+        jobtitle: "LabVantage Developer",
+        where: "FrontRow",
         date: "2021",
     },
     {
-        jobtitle: "Full Stack Developer",
-        where: "FrontRow",
-        date: "2019",
-    },
-    {
-        jobtitle: "Web Developer",
+        jobtitle: "Software Developer",
         where: "BSNL",
-        date: "2018",
+        date: "2019",
     },
 ];
 
-const skills = [{
+const skills = [
+    {
+        name: "Azure ML",
+        value: 90,
+    },
+    {
+        name: "Databricks",
+        value: 85,
+    },
+    {
+        name: "Docker",
+        value: 80,
+    },
+    {
+        name: "PySpark",
+        value: 80,
+    },
+    {
         name: "Python",
-        value: 90,
+        value: 95,
     },
     {
-        name: "Djano",
+        name: "LabVantage",
         value: 85,
-    },
-    {
-        name: "Javascript",
-        value: 80,
-    },
-    {
-        name: "React",
-        value: 70,
-    },
-    {
-        name: "Jquery",
-        value: 85,
-    },
-    {
-        name: "Java",
-        value: 90,
-    },
-    {
-        name: "Spring",
-        value: 80,
-
     },
 ];
 
 const services = [
     {
-        title: "Front-End Development",
-        description: "Crafting visually stunning and highly interactive user interfaces that engage and delight users, backed by my 2 years of experience in front-end development.",
+        title: "ML & AI Engineering",
+        description: "Designing and deploying intelligent solutions using Azure ML, Databricks and Docker.",
     },
     {
-        title: "Full-Stack Development",
-        description: "Bringing a comprehensive perspective to software development by seamlessly handling both front-end and back-end tasks for end-to-end solutions.",
+        title: "Data Engineering",
+        description: "Building scalable pipelines and ETL workflows to turn raw data into reliable insights.",
     },
     {
-        title: "Data Science Insights",
-        description: "Leveraging data science expertise to extract valuable insights from complex datasets, enabling data-driven decision-making and innovation.",
+        title: "LabVantage Solutions",
+        description: "Developing custom LabVantage modules to optimize laboratory information management.",
     },
 ];
 
-
 const dataportfolio = [
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "A three dimensional word puzzle developed using javascript and jquery.",
-        demolink: "https://sriranga13.github.io/wordify/",
-        codelink: "https://github.com/sriranga13/wordify"
+        img: "https://picsum.photos/seed/databricks/400/300",
+        description: "End-to-end Azure Databricks pipeline processing billions of records daily.",
+        codelink: "https://github.com/sriranga13/Azure-Databricks-Pipeline",
     },
-
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "An application that is trained using ML models and uses computer vision to recognize the facial expression with 97% accuracy in real time.",
-        codelink:"https://github.com/sriranga13/Facial-Expression-Detection",
+        img: "https://picsum.photos/seed/azureml/400/300",
+        description: "ML model deployment with Azure ML and Docker, enabling scalable inference.",
+        codelink: "https://github.com/sriranga13/AzureML-Docker-Deploy",
     },
-
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "A Deep Learning application that uses computer vision to detect and locate multiple keypoints for a given image or a video.",
-        codelink: "https://github.com/sriranga13/Multi-Person-Key-Point-Detection",
+        img: "https://picsum.photos/seed/labvantage/400/300",
+        description: "Custom LabVantage workflow integrating instruments and automating data capture.",
+        codelink: "https://github.com/sriranga13/LabVantage-Workflow",
     },
     {
         img: "https://picsum.photos/400/?grayscale",
         description: "An interactive 3D robot",
         demolink: "https://sriranga13.github.io/My-3D-Robot/",
-        codelink:"https://github.com/sriranga13/My-3D-Robot"
+        codelink: "https://github.com/sriranga13/My-3D-Robot",
     },
 ];
 
 const contactConfig = {
     YOUR_EMAIL: "srichow0987@gmail.com",
     YOUR_FONE: "(330)671-1989",
-    description: "Available for amazing projects!Contact me and let's talk. ",
+    description: "Available for amazing projects! Contact me and let's talk.",
     YOUR_SERVICE_ID: "service_lcb2r9f",
     YOUR_TEMPLATE_ID: "template_ynbmecw",
     YOUR_PUBLIC_KEY: "3T9fbCDdz95D892Ld",
@@ -127,9 +120,10 @@ const contactConfig = {
 
 const socialprofils = {
     github: "https://github.com/sriranga13",
-    linkedin: "https://https://www.linkedin.com/in/sri-gorantla-a9121b204/",
-    twitter: "https://twitter.com",
+    linkedin: "https://www.linkedin.com/in/sri-gorantla-a9121b204/",
+    twitter: "https://twitter.com/sriranga13",
 };
+
 export {
     meta,
     dataabout,
