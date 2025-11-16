@@ -74,8 +74,8 @@ export const ContactUs = () => {
         </Helmet>
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
-            <h1 className="display-4 mb-4">Contact Me</h1>
-            <hr className="t_border my-4 ml-0 text-left" />
+            <h1 className="display-4 mb-4" style={{ fontWeight: '700' }}>Contact Me</h1>
+            <hr className="t_border my-4 ml-0 text-left" style={{ borderWidth: '2px', opacity: '0.3' }} />
           </Col>
         </Row>
         <Row className="sec_sp">

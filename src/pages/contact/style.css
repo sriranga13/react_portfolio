@@ -2,9 +2,18 @@
     padding: 1.375rem .75rem;
     line-height: 1.5;
     color: var(--text-color);
-    background-color: var(--bg-color);
-    border-radius: 0 !important;
-    border: 1px solid var(--secondary-color);
+    background-color: rgba(14, 210, 247, 0.05);
+    border-radius: 8px !important;
+    border: 1px solid rgba(14, 210, 247, 0.3);
+    transition: all 0.3s ease;
+}
+
+.contact__form .form-control:focus {
+    background-color: rgba(14, 210, 247, 0.1);
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(14, 210, 247, 0.25);
+    outline: none;
+    color: var(--text-color);
 }
 
 .contact__form input.form-control {
@@ -12,8 +21,18 @@
     height: calc(2.5em + .75rem + 2px);
 }
 
+button.btn.ac_btn {
+    padding: 12px 32px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
 button.btn.ac_btn:hover {
     color: var(--secondary-color);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(14, 210, 247, 0.4);
 }
 
 .loading-bar {

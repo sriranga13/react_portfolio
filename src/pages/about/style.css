@@ -1,5 +1,12 @@
 .sec_sp {
-    margin-bottom: calc(3rem + 5.128vw)
+    margin-bottom: calc(3rem + 5.128vw);
+    padding-top: 1rem;
+}
+
+@media (max-width: 768px) {
+    .sec_sp {
+        margin-bottom: 3rem;
+    }
 }
 
 .table td,
@@ -29,10 +36,11 @@
 
 .progress .progress-bar {
     position: relative;
-    background: var(--text-color);
+    background: linear-gradient(90deg, var(--primary-color) 0%, #0ed2f7 50%, var(--primary-color) 100%);
     animation: animate-positive 2s;
     overflow: visible;
     opacity: 0.9;
+    box-shadow: 0 0 10px rgba(14, 210, 247, 0.5);
 }
 
 .progress .progress-value {

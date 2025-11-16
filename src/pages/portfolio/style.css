@@ -16,9 +16,11 @@
     background: var(--secondary-color);
     padding: 6px;
     border: 1px solid var(--secondary-color);
-    transition: 0.3s ease;
+    transition: all 0.3s ease;
     font-size: 0;
     min-height: 300px;
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 .po_item img {
@@ -53,7 +55,9 @@
 }
 
 .po_item:hover {
-    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 15px 30px 0 rgba(14, 210, 247, 0.4);
+    transform: translateY(-5px);
+    border-color: var(--primary-color);
 }
 
 .po_item:hover .content {
@@ -68,13 +72,21 @@
 }
 
 .po_item .content a {
-    background: var(--bg-color);
-    border: solid 1px var(--text-color);
-    padding: 4px 8px;
+    background: var(--primary-color);
+    border: solid 1px var(--primary-color);
+    padding: 8px 16px;
     text-align: center;
     font-size: 1rem;
+    color: var(--bg-color);
+    font-weight: 600;
+    border-radius: 4px;
+    margin: 5px;
+    transition: all 0.3s ease;
 }
 
 .po_item .content a:hover {
+    background: var(--bg-color);
+    color: var(--primary-color);
+    transform: scale(1.05);
     text-decoration: none;
 }
